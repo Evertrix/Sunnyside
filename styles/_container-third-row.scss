@@ -1,0 +1,146 @@
+// @media (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 100%;
+  }
+
+  .cherry-image {
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    overflow: hidden;
+    min-height: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .orange-image {
+    background-image: url('../images/desktop/image-photography.jpg');
+    overflow: hidden;
+    min-height: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .cherry-image,
+  .orange-image {
+    padding: 60px 60px 60px 100px;
+  }
+
+  .fruits-text-container {
+    width: 100%;
+    margin-top: 20em;
+  }
+
+  .cherry-image>.fruits-text-container>.text-center {
+    color: $dark_desaturated_cyan;
+  }
+
+  .orange-image>.fruits-text-container>.text-center {
+    color: $dark_blue;
+  }
+
+  .fruits-text-container h2:first-of-type {
+    font-family: $font-Fraunces;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fruits-text-container p:first-of-type {
+    font-family: $font-Barlow;
+    color: $gb;
+    margin: 30px 0 40px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: $font_size;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .container {
+    min-width: 100%;
+  }
+  
+  .cherry-image {
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    overflow: hidden;
+    min-height: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .orange-image {
+    background-image: url('../images/desktop/image-photography.jpg');
+    overflow: hidden;
+    min-height: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .cherry-image,
+  .orange-image {
+    padding: 50px;
+  }
+
+  .fruits-text-container {
+    width: 100%;
+    margin-top: 25em;
+  }
+
+  .cherry-image>.fruits-text-container>.text-center {
+    color: $dark_desaturated_cyan;
+  }
+
+  .orange-image>.fruits-text-container>.text-center {
+    color: $dark_blue;
+  }
+
+  .fruits-text-container h2:first-of-type {
+    font-family: $font-Fraunces;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fruits-text-container p:first-of-type {
+    font-family: $font-Barlow;
+    color: $gb;
+    margin: 30px 0 40px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .cherry-image {
+    background-image: url('../images/mobile/image-graphic-design.jpg');
+    height: 60vh;
+    overflow: hidden;
+    min-height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .orange-image {
+    background-image: url('../images/mobile/image-photography.jpg');
+    height: 60vh;
+    overflow: hidden;
+    min-height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}

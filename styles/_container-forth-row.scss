@@ -1,0 +1,65 @@
+.testimonials-title {
+  font-family: $font-Fraunces;
+  color: $gb;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 20px;
+  margin: 100px 0 50px 10px;
+}
+
+.client-image-container>img {
+  font-size: 2.7rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.client-image-container {
+  max-height: 100%;
+  padding-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.client-items {
+  max-height: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.client-items>p {
+  font-family: $font-Barlow;
+  color: $dgb;
+  font-size: $font_size;
+  line-height: 35px;
+}
+
+.client-items>h4 {
+  font-family: $font-Fraunces;
+}
+
+.client-items>span {
+  font-family: $font-Barlow;
+  color: $gb;
+}
+
+@media only screen and (max-width: 767px) {
+  .client-items>p {
+    padding: 0px 70px 10px 70px;
+  }
+}
+
+.social-nav-items{
+  color: $dark_moderate_cyan;
+}
+
+.social-nav-items:hover{
+  color: white;
+}
+
+.social-icons-images > svg path:hover{
+  fill: white;
+}
