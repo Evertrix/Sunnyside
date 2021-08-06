@@ -52,9 +52,9 @@
     position: relative;
     /*The content ignores everything else*/
     /*Add this*/
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
-    top: auto;
+    top: 55px;
   }
   .nav-item {
     margin: 0 15px 0 15px;
@@ -116,10 +116,10 @@
     position: relative;
     /*The content ignores everything else*/
     /*Add this*/
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     vertical-align: middle;
-    top: 55px;
+    top: auto;
   }
   h1 {
     font-size: 45px;
@@ -149,7 +149,7 @@
   }
   .egg-image {
     background-image: url("../images/desktop/image-transform.jpg");
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
     min-height: 100% !important;
     background-position: center;
@@ -309,7 +309,7 @@
   }
   .cup-image {
     background-image: url("../images/desktop/image-stand-out.jpg");
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
     min-height: 100% !important;
     background-position: center;
@@ -549,7 +549,7 @@
   }
   .fruits-text-container {
     width: 100%;
-    margin-top: 25em;
+    margin-top: 13.5em;
   }
   .cherry-image > .fruits-text-container > .text-center {
     color: #25564b;
