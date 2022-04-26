@@ -134,9 +134,9 @@
   }
   .header-container {
     background-image: url("../images/mobile/image-header.jpg");
-    height: 60vh;
-    overflow: hidden;
-    min-height: 100% !important;
+    /* height: 60vh; */
+    /* overflow: hidden; */
+    /* min-height: 100% !important; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
