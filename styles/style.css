@@ -150,9 +150,9 @@
   }
   .egg-image {
     background-image: url("../images/desktop/image-transform.jpg");
-    height: 60vh;
+    /* height: 60vh; */
     overflow: hidden;
-    min-height: 100% !important;
+    /* min-height: 100% !important; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,9 +310,9 @@
   }
   .cup-image {
     background-image: url("../images/desktop/image-stand-out.jpg");
-    height: 60vh;
+    /* height: 60vh; */
     overflow: hidden;
-    min-height: 100% !important;
+    /* min-height: 100% !important; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
